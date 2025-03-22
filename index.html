@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox GameDev - Home</title>
+    <title>Roblox GameDev Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="documentation.html">Documentation</a>
-        <a href="upcoming.html">Upcoming</a>
-    </nav>
     <header>
-        <h1>Welcome to My Roblox GameDev Portfolio</h1>
-        <p>Creating immersive and exciting Roblox experiences.</p>
+        <div class="logo">GameDevX</div>
+        <nav>
+            <a href="index.html" class="active">Overview</a>
+            <a href="projects.html">Projects</a>
+            <a href="upcoming.html">Upcoming</a>
+            <a href="about.html">About</a>
+        </nav>
     </header>
-    <section class="overview">
-        <h2>Project Overview</h2>
-        <div class="project-grid">
-            <div class="project-item">
-                <img src="project1-thumbnail.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>A brief description of Project 1.</p>
-                <a href="projects.html#project1">Learn More</a>
+
+    <main class="content">
+        <section class="hero">
+            <h1>Welcome to GameDevX's Portfolio</h1>
+            <p>Exploring the world of Roblox game development, one project at a time.</p>
+            <a href="projects.html" class="cta">View Projects</a>
+        </section>
+
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+                    <h3>Project 1: Adventure Quest</h3>
+                    <p>An immersive RPG experience with dynamic quests and exploration.</p>
+                    <a href="project1.html" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail">
+                    <h3>Project 2: City Builder</h3>
+                    <p>Build and manage your own bustling city in Roblox.</p>
+                    <a href="project2.html" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <img src="project3-thumbnail.jpg" alt="Project 3 Thumbnail">
+                    <h3>Project 3: Space Tycoon</h3>
+                    <p>Mine asteroids and expand your space empire.</p>
+                    <a href="project3.html" class="project-link">Learn More</a>
+                </div>
             </div>
-            <div class="project-item">
-                <img src="project2-thumbnail.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>A brief description of Project 2.</p>
-                <a href="projects.html#project2">Learn More</a>
-            </div>
-        </div>
-    </section>
-    <section class="upcoming">
-        <h2>Upcoming Projects</h2>
-        <p>Stay tuned for exciting new Roblox games!</p>
-        <a href="upcoming.html">See What's Coming</a>
-    </section>
-    <script src="script.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GameDevX. All rights reserved.</p>
+    </footer>
 </body>
 </html>
